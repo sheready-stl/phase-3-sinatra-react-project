@@ -126,4 +126,4 @@ fetch("http://localhost:9292/test")
 
 ## Elasticbeanstalk link
 
-http://sinatra-project-test.us-east-1.elasticbeanstalk.com/projects
+https://sinatra-project-test.us-east-1.elasticbeanstalk.com/projects
