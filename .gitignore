@@ -16,3 +16,8 @@
 
 # Canvas-specific .results.json
 .results.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
