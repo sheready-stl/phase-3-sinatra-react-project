@@ -1,8 +1,13 @@
 class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
-  
+
   # Add your routes here
   #create routes
+
+  get "/" do
+    "Welcome to ruby phase 3 project"
+  end
+
   post "/projects" do
     projects = Project.create(
       name: params[:name],
@@ -10,7 +15,7 @@ class ApplicationController < Sinatra::Base
     )
     projects.to_json
   end
-  
+
   post "/programmers" do
     programmer = Programmer.create(
       name: params[:name]
@@ -27,7 +32,7 @@ class ApplicationController < Sinatra::Base
     )
     tasks.to_json
   end
-  
+
   #Read routes
 
   get "/projects" do
