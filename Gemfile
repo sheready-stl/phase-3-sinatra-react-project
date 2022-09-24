@@ -59,3 +59,4 @@ gem 'rack-parser'
 
 gem 'pg'
 gem 'bundler'
+gem 'rerun'
