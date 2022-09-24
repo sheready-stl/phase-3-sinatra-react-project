@@ -58,3 +58,4 @@ gem 'puma'
 gem 'rack-parser'
 
 gem 'pg'
+gem 'bundler'
