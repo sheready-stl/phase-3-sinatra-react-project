@@ -1,1 +1,1 @@
-web: bundle exec rackup
+web: rake server
