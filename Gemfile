@@ -51,8 +51,10 @@ group :test do
   gem "rspec-json_expectations", "~> 2.2"
 end
 
-#add fake for seeding data 
+#add fake for seeding data
 
 gem "faker"
 gem 'puma'
 gem 'rack-parser'
+
+gem 'pg'
